@@ -4,14 +4,7 @@ import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
-import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Scaffold
-import androidx.compose.material3.Text
-import androidx.compose.runtime.Composable
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.example.remotecodeaustralia.ui.screens.JetpackComponentsDemo
+import com.example.remotecodeaustralia.ui.screens.remoteCodeCamp.DemoKing
 import com.example.remotecodeaustralia.ui.theme.RemoteCodeAustraliaTheme
 
 class MainActivity : ComponentActivity() {
@@ -21,7 +14,12 @@ class MainActivity : ComponentActivity() {
         setContent {
             RemoteCodeAustraliaTheme {
 
-                JetpackComponentsDemo()
+//    // Material Icons (extended set with 2000+ icons)
+//    implementation("androidx.compose.material:material-icons-extended:<compose_version>")
+
+                DemoKing()
+
+
             }
         }
     }
